@@ -50,9 +50,8 @@ arcade.draw_polygon_filled([[20, 350],
                             [360, 340]],
                             arcade.color.BROWN)
 
-#SOL
+# SOL
 arcade.draw_circle_filled(650, 450, 60, arcade.color.YELLOW)
-
 
 # Draw loft of barn
 arcade.draw_triangle_filled(100, 470, 280, 470, 190, 500, arcade.color.BROWN)
