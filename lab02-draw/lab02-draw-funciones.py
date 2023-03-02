@@ -46,8 +46,6 @@ def dibujar_messi() :
     return(arcade.draw_rectangle_filled(centrado_derecha_c, centrado_izquierda_c, base, altura, arcade.csscolor.MAROON))
 
 
-
-
 arcade.open_window(600, 600, "hola")
 
 arcade.set_background_color(arcade.csscolor.SKY_BLUE)
@@ -62,7 +60,6 @@ dibujar_sol()
 
 dibujar_hojas()
 
-dibujar_messi()
 
 arcade.finish_render()
 
